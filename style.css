@@ -44,6 +44,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@import url("style/breakpoints.css");
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -52,6 +54,8 @@ html {
 
 body {
 	margin: 0;
+	width: 1280px;
+	margin: 0 auto;
 }
 
 article,
