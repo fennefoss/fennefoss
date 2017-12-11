@@ -26,32 +26,6 @@ get_header(); ?>
 			endwhile; // End of the loop.
 			?>
 
-			<section class="newest-social">
-				<div class="newest-social__instagram">
-					<script type="text/javascript">
-						var feed = new Instafeed({
-						    get: 'user',
-						    userId: '3925944234',
-						    clientId: '	6ab05fbe7e6144b7819e214f1870930e',
-						    accessToken: '3925944234.6ab05fb.825c4e3e941146a4852790c4af478442',
-						    resolution: 'low_resolution',
-						    limit: '4',
-						    sortBy: 'most-recent',
-						    template: '<a href="{{link}}"><img src="{{image}}" /></a>' +
-						    '<div class="instagram-overlay">{{caption}}{{likes}}</div>'
-						});
-						feed.run();
-					</script>
-					<div id="instafeed" class="instagram-wrapper"></div>
-				</div>
-
-				<div class="newest-social__youtube">
-				<iframe id="ytplayer" type="text/html" width="640" height="360"
-				    src="https://www.youtube.com/embed?listType=user_uploads&list=Fenn3"
-				    frameborder="0">
-				</iframe>
-			</section>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

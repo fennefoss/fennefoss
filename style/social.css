@@ -1,0 +1,36 @@
+/* Social */
+.instagram-overlay {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	color: #ffffff;
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition: all 1s ease-in-out;
+  	-o-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+}
+
+.newest-social__instagram,
+.newest-social__youtube {
+	width: 50%;
+	float: left;
+}
+
+.instagram-tile {
+	float: left;
+	position: relative;
+}
+
+.instagram-tile.hover .instagram-overlay {
+	opacity: 1;
+	visibility: visible;
+	background:rgba(0,0,0,0.5);
+}
+
+.newest-social {
+	max-height: 320px;
+	overflow: hidden;
+}
